@@ -55,8 +55,8 @@ class Display extends Component {
           <li>{this.state.data[this.state.displayIndex].favoriteMovies[2]}</li>
         </ol>
         
-        <footer><button onClick={() => this.backwards()}>Go Back</button>
-        <button onClick={() => this.forwards()}>Go Forward</button>
+        <footer><button className='button2' onClick={() => this.backwards()}>Go Back</button>
+        <button className='button1' onClick={() => this.forwards()}>Go Forward</button>
         </footer>
       </div>
     );

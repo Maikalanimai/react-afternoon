@@ -1,0 +1,30 @@
+.all {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    height: 2rem;
+    width: 100px;
+}
+footer {
+    display: flex;
+    bottom: 0%
+}

@@ -7,7 +7,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  background: dodgerblue;
+  height: 80px;
+}
+
+.home {
+  display: inline-flex;
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding-left: 50px;
+  padding-top: 20px
+}
+
+.div-over-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px
+}
+main {
+  background: white;
+  height: 60vh;
+  width: 60vw;
+  display: flex;
+}
+
